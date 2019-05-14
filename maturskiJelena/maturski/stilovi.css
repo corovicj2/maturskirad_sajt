@@ -1,0 +1,117 @@
+h1 {
+    border-bottom: 5px solid #7B1FA2;
+    padding-bottom: 10px;
+    color: #FFFFFF;
+    text-shadow: 3px 3px 5px #E040FB;
+    text-align: center;
+}
+h2 {
+	display:inline-block; 
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #7B1FA2;
+    padding: 5px;
+    border-bottom: 3px solid #7B1FA2;
+    text-align: left;
+}
+p {
+	text-align: justify;
+    line-height: 1.5;
+    text-indent: 30px;
+
+}
+body {
+	background-color: #E1BEE7;
+}
+
+footer {
+	font-style: italic;
+    font-size: 25px;
+    color: black;
+    background-color: #7B1FA2;
+    font-weight: bolder;
+}
+
+footer > p {
+	    text-align: right;
+}
+
+nav{
+    background-color:#00796B;
+}
+
+nav ul{
+    overflow: hidden;
+    padding:2px;
+    margin:5px;
+    list-style-type: none;
+    background-color:#7B1FA2;
+}
+
+nav ul li{
+    float: left;
+}
+
+nav li a{
+    display: block;
+    padding:10px;
+    color: #E1BEE7;
+    text-align: center;
+    text-shadow:  3px 3px 5px black;
+    text-decoration: overline;
+}
+
+li a:hover {
+    background-color:#00796B;
+}
+.custom-table {
+    border-collapse: collapse;
+    background-color: #7B1FA2;
+    border: 5px #009688 solid;
+}
+
+th {
+    background-color: #009688;
+}
+
+#header-uvod {
+	height: 200px;
+	margin-left: 60px;
+	margin-right: 60px;
+	background:url("slike/andric-header.jpg");
+	background-repeat: no-repeat;
+	background-size:100% 100%;
+}
+
+#naslov-uvod {
+	border-bottom: 0px;
+}
+
+#naslov-ostali {
+	background-color: #00796B;
+}
+
+.uzi-paragraf {
+	margin: 0px 10px 0px 0px;
+	padding: 5px 5px 5px 5px;
+	height: auto;
+	width: 80%;
+	border: 1px solid #7B1FA2;
+	border-radius: 4px 4px 4px 4px;
+	//display:inline-block
+}
+
+.uzi-paragraf p {
+	text-align: justify;
+}
+
+tr:nth-child(even) {
+    background-color: #E040FB;
+}
+strong {
+    color: #7B1FA2;
+} 
+
+em {
+    color: #00796B;
+}
